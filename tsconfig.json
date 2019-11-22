@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-fullscreen-picture": [
+        "dist/ngx-fullscreen-picture"
+      ],
+      "ngx-fullscreen-picture/*": [
+        "dist/ngx-fullscreen-picture/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
